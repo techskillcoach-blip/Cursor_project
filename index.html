@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Become an AI GENERALIST - TECHSKILLCOACH AI Tools Workshop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://secure.techskillcoach.com/widget/form/BOPFrqsdIBS4kDgsuFu8?notrack=true" rel="stylesheet">
+</head>
+<body>
+    <!-- Header with Logo -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-container">
+                    <img src="logo.PNG" alt="TechSkillCoach Logo" class="logo">
+                </div>
+                <div class="header-center">
+                    <h1 class="brand-name">
+                        <span class="tech-word">TECH</span>
+                        <span class="skill-word">SKILL</span>
+                        <span class="coach-word">COACH</span>
+                    </h1>
+                </div>
+                <div class="header-right"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="badge">One of the Best AI Program -Click for One On One Call 🌎</div>
+            <h1 class="hero-title">AI-Powered</h1>
+            <h1 class="hero-title">Business Analyst & Intelligence Accelerator</h1>
+            <p class="hero-subtitle">
+               From Analyst to Intelligence Accelerator-Powered by AI
+            </p>
+            <p class="hero-tagline">**********  Learn, Grow, Accelerate **********</p>
+            
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Become a highly paid Business Analyst (Average Salary 17LPA)</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>No prior Technical or AI knowledge required</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Save upto 3 Hours Everyday</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Grow your salary upto 3X</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Job-Ready Analyst</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>AI Tools by 10x productivity</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Career Growth + High Income</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Resume,Interviews + LinkedIn Optimised</span>
+                </div>
+              <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Real Industry Project Experience</span>
+                </div>
+            </div>
+
+            <div class="workshop-info">
+                <div class="info-item">
+                    <span class="info-label">Date:</span>
+   <p id="nextSunday"></p>
+
+  <script>
+    const today = new Date();
+    const dayOfWeek = today.getDay(); // Sunday = 0, Monday = 1, ..., Saturday = 6
+    const daysUntilSunday = (7 - dayOfWeek) % 7; // If today is Sunday, show same day
+    const nextSunday = new Date(today);
+    nextSunday.setDate(today.getDate() + daysUntilSunday);
+
+    const monthAbbr = nextSunday.toLocaleString('default', { month: 'short' });
+    const formattedDate = `${monthAbbr} ${nextSunday.getDate()}, ${nextSunday.getFullYear()}`;
+
+    document.getElementById("nextSunday").textContent = formattedDate;
+  </script>
+
+
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Duration:</span>
+                    <span class="info-value">3+ Hours</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Type:</span>
+                    <span class="info-value">Live Session</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Time:</span>
+                    <span class="info-value">11:00 AM Onwards</span>
+                </div>
+            </div>
+
+            <div class="certification-badge">
+                <a href="#" class="cta-buttonF" onclick="event.preventDefault(); openRegistrationModal();">Register Free for One On One Call </a>
+            </div>
+            <p class="price-note">Accelerate your career with Artificial Intelligence (AI) ☕!</p>
+
+            <a href="#" class="cta-button" onclick="event.preventDefault(); openRegistrationModal();">Become a super working professional now!</a>
+            
+            <div class="urgency-note">
+                <p>⚠️ Specially Designed for Working Professionals ⚠️</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bonuses Section -->
+    <section class="bonuses">
+        <div class="container">
+            <h2 class="section-title">Bonuses Worth ₹ 30,000 if you Register before Midnight</h2>
+            <div class="countdown" id="countdown">
+                <div class="countdown-item">
+                    <span class="countdown-value" id="days">00</span>
+                    <span class="countdown-label">Days</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-value" id="hours">00</span>
+                    <span class="countdown-label">Hours</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-value" id="minutes">00</span>
+                    <span class="countdown-label">Minutes</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-value" id="seconds">00</span>
+                    <span class="countdown-label">Seconds</span>
+                </div>
+            </div>
+            
+            <div class="bonuses-grid">
+                <div class="bonus-card">
+                    <div class="bonus-number">Bonus 1</div>
+                    <h3>25+ easy to implement AI Tools</h3>
+                    <p class="bonus-value">Worth ₹5000</p>
+                </div>
+                <div class="bonus-card">
+                    <div class="bonus-number">Bonus 2</div>
+                    <h3>All Topics Real World Interview Questions & Interview Fear Destroyer Kit</h3>
+                    <p class="bonus-value">Worth ₹8,000</p>
+                </div>
+                <div class="bonus-card">
+                    <div class="bonus-number">Bonus 3</div>
+                    <h3>10-Day LinkedIn Job Attraction Sprint</h3>
+                    <p class="bonus-value">Worth ₹2,500</p>
+                </div>
+                <div class="bonus-card">
+                    <div class="bonus-number">Bonus 4</div>
+                    <h3>AI Resume Makeover & ATS System</h3>
+                    <p class="bonus-value">Worth ₹3,500</p>
+                </div>
+                <div class="bonus-card">
+                    <div class="bonus-number">Bonus 5</div>
+                    <h3>21-Day Consistency Discipline Challenge</h3>
+                    <p class="bonus-value">Worth ₹4,500</p>
+                </div>
+             <div class="bonus-card">
+                    <div class="bonus-number">Bonus 6</div>
+                    <h3>24 x 7 LMS Portal Access with Recorded Videos</h3>
+                    <p class="bonus-value">Worth ₹6,500</p>
+                </div>
+
+            </div>
+
+            <p class="bonus-deadline">REGISTER BEFORE MIDNIGHT to Benefit All the Bonuses Worth ₹ 30,000</p>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <h2 class="section-title">AI is expected to cause substantial job losses in big companies, as workers trained in AI take over traditional positions</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-value">Crores</div>
+                    <div class="stat-label">Job Replacement</div>
+                </div>
+            </div>
+            <div class="stats-message">
+                <h3>Jobs are moving towards AI enabled people, become AI enabled today.</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Why join this course? 🤷🏻‍♂️</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Research for any presentation</h3>
+                    <p>Complete research/report in 20 mins</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📽️</div>
+                    <h3>Create any kinds of presentations under 10 seconds</h3>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💻</div>
+                    <h3>Learn to code using AI with 0 technical knowledge</h3>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📈</div>
+                    <h3>Use all excel formulas with AI without remembering them</h3>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💼</div>
+                    <h3>Know Linkedin tool that will accelerate your career</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Workshop Topics -->
+    <section class="workshop-topics">
+        <div class="container">
+            <h2 class="section-title">Is This workshop for you?</h2>
+            <p class="section-subtitle">
+                In this Webinar, you will learn to use various 25+ AI tools like ChatGPT, Claude,perplexity,Canva etc effectively 
+                which will help you maximize your productivity in your day to day personal and professional life. 
+                You'll be taught tools which will save you 3-4 hours of your time daily.
+            </p>
+            <div class="topics-grid">
+                <div class="topic-card">
+                    <div class="topic-icon">💼</div>
+                    <h3>AI Tools for LinkedIn</h3>
+                    <p>Learn using AI tools to find leads, get jobs, and write amazing posts.</p>
+                </div>
+                <div class="topic-card">
+                    <div class="topic-icon">📊</div>
+                    <h3>AI Tools for Microsoft Excel</h3>
+                    <p>Master excel formulas without remembering them.</p>
+                </div>
+                <div class="topic-card">
+                    <div class="topic-icon">📽️</div>
+                    <h3>AI Tools for Building Presentations</h3>
+                    <p>Create attention grabbing presentations in minutes.</p>
+                </div>
+                <div class="topic-card">
+                    <div class="topic-icon">🎯</div>
+                    <h3>AI Tools for Interview Skills</h3>
+                    <p>Learn important aspects of interviews and get hired.</p>
+                </div>
+                <div class="topic-card">
+                    <div class="topic-icon">📄</div>
+                    <h3>AI Tools for Report Building (research)</h3>
+                    <p>Create versatile research reports with the help of AI.</p>
+                </div>
+                <div class="topic-card">
+                    <div class="topic-icon">💻</div>
+                    <h3>AI Tools for Coding/ Programming</h3>
+                    <p>Develop new features in a few clicks.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="rating-badge">
+                <div class="rating-score">4.5/5</div>
+                <div class="rating-stars">★★★★★</div>
+                <div class="rating-text">EXCELLENT</div>
+                <div class="rating-count">TrustScore 4.5 | 2,542 reviews</div>
+            </div>
+            <h2 class="section-title">What People Are Saying</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <h4>Shridhar Doshi</h4>
+                    <p class="testimonial-date">A day ago</p>
+                    <p class="testimonial-text">
+                        Got good exposure to some of the useful AI tools with the help of TechSkillCoach 3-hour workshop 
+                        and how to use them in our day to day work. Thanks Pandurang Sir and Team for the great session.
+                    </p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <h4>Ravindra Jain HR</h4>
+                    <p class="testimonial-date">A day ago</p>
+                    <p class="testimonial-text">
+                        TechSkillCoach earns a solid 5 stars from me without a doubt. Its exceptional session and the courses provided 
+                        are exceptional and the need of the hour. Happy to be part of TechSkillCoach family and all the very best.
+                    </p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <h4>Nandakishor Patkar</h4>
+                    <p class="testimonial-date">Aug 20, 2025</p>
+                    <p class="testimonial-text">
+                        Wow!! Superb orientation. Was skeptical when I joined the orientation session but just wow. 
+                        TechSkillCoach Team  is surely going to give us 10000x returns. Please, please dont miss this. Absolutely gold stuff!!
+                    </p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <h4>Venkatesh MGR</h4>
+                    <p class="testimonial-text">
+                        Excellent session. It was more helpful to up skills and get promoted.
+                    </p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <h4>Pratham Kohali</h4>
+                     <p class="testimonial-text">
+                        Great,Valuable content shared by super delightful and knowledgeable Instructor  . 
+                        If you miss this it's your loss. Be updated with latest ai tools and save 3x time.
+                    </p>
+                </div>
+            </div>
+            <div class="stats-note">
+                <p>100K+ folks have already attended the AI Tools Workshop and gave us the average rating of 4.8/5</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mentors Section -->
+    <section class="mentors">
+        <div class="container">
+            <h2 class="section-title">Know your mentors</h2>
+            <div class="mentors-grid">
+                <div class="mentor-card">
+                    <div class="mentor-badge">20 Years of IT Experience | AI Tools-Powered User</div>
+                      <p>
+			<h3 style="display:inline; margin-right:8px;">Pandurang Chavan</h3>
+			<h4 style="display:inline;">(MBA-PMP Certified)</h4>
+                        
+<p style="background-color: black; color: white; padding: 15px;">
+    Hi, I am <strong>Pandurang Chavan</strong> and I will be your mentor for the upcoming AI tools workshop.
+    I am an MBA in Information Technology and a PMP‑certified professional with over 15 years of experience in the IT and data engineering domain. My career journey has been shaped by a passion for technology, project management, and empowering others through structured learning.
+    Over the years, I have worked extensively with Oracle, Informatica IICS, Snowflake, and legacy modernization projects, building expertise in scenario‑based troubleshooting, workflow optimization, and executive‑ready dashboard design. My technical foundation is complemented by strong communication and coaching skills, enabling me to bridge the gap between complex systems and practical, user‑friendly solutions.
+    Beyond technology, I am deeply invested in mentorship and training. As a Wealth Coach and English Confidence Coach, I help learners grow not only in their professional skills but also in their personal confidence. My approach blends data‑driven insights, agile practices, and spiritual alignment, creating a holistic learning experience that is both practical and transformative.
+    Through this portal, my mission is clear:
+    <br> - To equip learners with cutting‑edge technical skills in cloud, data, and management.
+    <br> - To empower professionals to become fearless communicators and confident leaders.
+    <br> - To build Tech Skill Coach as a trusted brand for inclusive, impactful learning.
+</p>
+
+
+                </div>
+             </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <h2 class="section-title">Frequently asked questions</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>When is the workshop?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>The workshop is from Beging of the Month</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Will this be live?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>It is a completely live workshop</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Is it a certified workshop?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>
+                            Absolutely. You will be certified by TechSkillCoach  
+                            who have jointly built multiple 8 figure companies with the help of AI tools.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Will it be recorded?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>No, it won't be recorded.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What should I be prepared with before the workshop starts?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>
+                            Make sure you come 10 mins before the scheduled time and have a simple notebook and pen 
+                            to write the important points you find during the workshop.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>I have enrolled but didn't receive any WhatsApp message.</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>
+                            Please WhatsApp us at +91-9920141336 and our awesome support team will get back to you in under 6 hours.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta">
+        <div class="container">
+            <div class="cta-box">
+       
+                <h2>Become a super working professional now!</h2>
+                <p class="cta-note">Currently THE WEBINAR IS FOR JUST FREE</p>
+                <p class="cta-warning">BUT BEFORE THAT ONE ON ONE CALL</p>
+                <a href="#" class="cta-button-large" onclick="event.preventDefault(); openRegistrationModal();">Be TechSkillCoach Now</a>
+                <p class="bonus-deadline-small">REGISTER BEFORE MIDNIGHT to Get  All Bonuses free of Cost</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 TechSkillCoach All rights reserved.</p>
+            <p class="footer-note">Specially Designed for All the Level of Peoples</p>
+        </div>
+    </footer>
+
+    <!-- Registration Form Modal -->
+    <div id="registrationModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <h2 class="modal-title">Register for Free One-On-One Call</h2>
+            <p class="modal-subtitle">Fill in your details to get started</p>
+            <form id="registrationForm" action="https://secure.techskillcoach.com/widget/form/BOPFrqsdIBS4kDgsuFu8" method="POST" target="_blank">
+                <div class="form-group">
+                    <label for="firstName">First Name <span class="required">*</span></label>
+                    <input type="text" id="firstName" name="firstName" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="lastName">Last Name <span class="required">*</span></label>
+                    <input type="text" id="lastName" name="lastName" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="gender">Gender <span class="required">*</span></label>
+                    <select id="gender" name="gender" required>
+                        <option value="">Select Gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Phone <span class="required">*</span></label>
+                    <input type="tel" id="phone" name="phone" placeholder="+91 1234567890" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email <span class="required">*</span></label>
+                    <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="courseDescription">Course Description (Optional)</label>
+                    <textarea id="courseDescription" name="courseDescription" rows="3" placeholder="Tell us about your interest..."></textarea>
+                </div>
+                
+                <div class="form-checkbox">
+                    <label>
+                        <input type="checkbox" name="transactionalConsent" required>
+                        <span>By checking this box, I consent to receive transactional messages related to my account, orders, or services I have requested. These messages may include appointment reminders, order confirmations, and account notifications among others. Message frequency may vary. Message & Data rates may apply. Reply HELP for help or STOP to opt-out.</span>
+                    </label>
+                </div>
+                
+                <div class="form-checkbox">
+                    <label>
+                        <input type="checkbox" name="marketingConsent" required>
+                        <span>By checking this box, I consent to receive marketing and promotional messages, including special offers, discounts, new product updates among others. Message frequency may vary. Message & Data rates may apply. Reply HELP for help or STOP to opt-out.</span>
+                    </label>
+                </div>
+                
+                <button type="submit" class="form-submit-btn">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
