@@ -1,4 +1,4 @@
-# Be10X AI Tools Workshop Landing Page
+# TechSkillCoach AI Tools Workshop Landing Page
 
 A modern, responsive landing page for the Be10X AI Tools Workshop, designed to convert visitors into workshop attendees.
 
@@ -97,6 +97,7 @@ button.addEventListener('click', () => {
 ## License
 
 Free to use and modify for your purposes.
+
 
 
 
